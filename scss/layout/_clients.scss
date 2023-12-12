@@ -1,0 +1,35 @@
+.Clients {
+    bottom: 379px;
+    height: 216px;
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+        bottom: 491px;
+        height: 765px;
+    }
+    @media (max-width:600px){
+            height: 840px;
+    }
+    .images {
+        margin-left: 53px;
+        position: relative;
+        @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
+            padding-left: 63px;
+            position: relative;
+            padding-right: 157px;
+        }
+        }
+        .logos {
+            width: 230px;
+            box-shadow: 5px 5px 10px $shadow;
+            border-radius: 10px;
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+                margin-bottom: 20px;
+            }
+        }
+    }
+        .decorator {
+            right: 0;
+            bottom: 224px;
+            @media (max-width: 600px) {
+                left: 216px;
+            }
+    }

@@ -1,0 +1,41 @@
+.download{
+    @media (max-width:900px) {
+        padding-left: 46px;
+        position: relative;
+        bottom: 203px;
+        height: 448px;
+    }
+    .app{
+        display: grid;
+        margin-top: 200px;
+    }
+   .dimg{
+    right: 27px;
+    top: 123px;
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+        top: 224px;
+    }
+   }
+}
+@media (max-width: 600px){
+    .dimg,.bg{
+     display: none;
+    } 
+    .lines{
+        position: relative;
+        right: 418px;
+    } 
+    .l1{
+        left: 20px;
+    }
+    .app-img1{
+        position: relative;
+        right: 7px;
+    }
+  }
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+    .app-play{
+      display: flex;
+    }
+}

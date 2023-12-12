@@ -1,0 +1,67 @@
+.layout-l2{
+    margin-left: 74px;
+    width: 1109px;
+    height: 217px;
+    margin-top: 58px;
+    border-radius: 10px;
+    background-color:$blue;
+    @media only screen and (min-device-width: 820px) and (max-device-width: 1180px){
+        margin-left: 103px;
+    }
+.btn-2{
+    height: 46px;
+    margin-top: 90px;
+    width: 144px;    
+}
+.Subscribe{
+    width: 541px;
+    margin-left: 100px;
+    margin-right: 70px;
+    margin-top: 69px;
+    font-size: 15px;
+    font-family: $font;
+}
+.union{
+    right: 150px;
+    margin-top: 113px;
+}
+}
+.footer{
+    height: 60px;
+    left: 0px;
+}
+@media (max-width: 600px){
+    .layout-l2{
+        margin-left: 19px;
+        width: 357px;
+        height: 472px;
+        .Subscribe{
+            margin-left: 5px;
+        }
+        .union{
+            left: 179px;
+            margin-top: 6px;
+        }
+        .s-heading{
+            display: grid;
+        }
+}
+.last{
+    padding-left: 32px;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1023px){
+    .layout-l2{
+        position: relative;
+        right: 20px;
+        height: 396px;
+        width: 653px;
+    }
+    .btn-2{
+        position: relative;
+        left: 53px;
+    }
+    .last{
+        padding-left: 39px;
+    }
+}

@@ -1,0 +1,76 @@
+.testimonials {
+    bottom: 100px;
+    position: relative;
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+        bottom: 544px;
+        height: 553px;
+    }
+    @media only screen and (min-device-width: 820px) and (max-device-width: 1180px){
+        padding-left: 38px;
+    }
+    .layout {
+        @include layout;
+    .img-content {
+        height: 48px;
+    }
+    .pic1 {
+        margin-left: 47px;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}
+.colmove{
+    padding-left: 74px;
+    @media (max-width: 600px) {
+        padding:0px
+          }
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    top: 559px;
+    margin-left: 8%;
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+            display: none;
+    }
+}
+.rectangle{
+  @include rectangle;
+}
+ .line{
+    @include line;
+ }
+ .line2{
+    @include line;
+    left: 633px;
+    top: 43px;
+ }
+ .rectangle1{
+    @include rectangle;
+    top: 31px;
+    left: 695px;
+ }
+ @media (max-width:600px){
+    .test-h1{
+        font-size: 40px;
+    } 
+    .colmini{
+        margin-left: 11px;
+    }
+    .l1{
+        margin-left: 4px;
+    }
+ }
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+ .colmini{
+    margin-left: 83px;
+    }
+    .lines{
+        position: relative;
+    right: 243px;
+    }
+    .l1{
+        margin-left: 21px;
+    }
+}
+}

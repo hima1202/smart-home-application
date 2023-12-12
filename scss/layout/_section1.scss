@@ -1,0 +1,167 @@
+.section-1 {
+    background-color: $blue;
+    height: 760px;
+    z-index: 1;
+    @media (max-width:600px){
+        height: 563px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto ;
+        grid-gap: 194px;
+        left: 136px;
+        opacity: 0.3;
+        .item2,.item3,.item4,.item5{
+            opacity: 0.2;
+        }
+        @media (max-width:600px){
+            grid-gap: 48px;
+            left: 73px;
+        }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+            grid-gap: 100px;
+        }
+    }
+      .grid-container > div {
+        background-color:$white;
+        padding: 1px;
+        height: 760px;
+}
+    .c1 {
+        @include circle;
+        left: 110px;
+        top: 350px;
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+            position: relative;
+            top: 423px;            
+        }
+        @media (max-width:600px){
+            left: 47px;
+        }
+    }
+    .c2 {
+        @include circle;
+        left: 900px;
+        top: 410px;
+        height: 20px;
+        width: 20px;
+        border: 2px solid $white;
+        background: $green;
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+            left: 523px;
+        }
+        @media (max-width:600px){
+            left: 252px;
+        }
+    }
+    .c3 {
+        @extend .c2;
+        margin-left: 195px;
+        top: 70px;
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+            left: 431px;
+        }
+        @media (max-width:600px){
+            left: 106px;
+        }
+    }
+
+    .navbar {
+        margin-left: 60px;
+        bottom: 52px;
+        @media (max-width:900px){
+            bottom: 41px;
+            margin-left: 12px;
+        }
+        .navbar-nav {
+            margin-left: 35px;
+            margin-right: 358px;
+            .nav-link {
+                margin-right: 20px;
+                color: $light;
+                &:hover{
+                    color:$black;
+                }
+            }
+
+        }
+        .sign {
+            font-size: 17px;
+            height: 58px;
+            width: 152px;
+            font-weight: 600;
+            background-color: $white;
+            &:hover{
+                background-color: $blue;
+            }
+        }
+        .svg {
+            margin-left: 973px;
+            top: -19px;
+        }
+    }
+    .hero-container {
+        height: 400px;
+        bottom: 75px;
+        @media only screen and (min-device-width: 820px) and (max-device-width: 1180px){
+            padding-left: 23px;
+        }
+        .heading-1 {
+            margin-top: 80px;
+            font-size: 76px;
+            @media (max-width:600px){
+                font-size: 35px;
+            }
+        }
+        .content-1 {
+            margin-left: 274px;
+            display: grid;
+            font-size: 18px;
+            @media (max-width:600px){
+                margin-left: 20px;
+            }
+        @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+            margin-left: 30px;
+}
+        }
+        .image {
+            margin-left: 110px;
+            @media(max-width:600px){
+                width: 339px;
+                height: 246px;
+                position: absolute;
+                right: 5px;
+                top: 322px;
+            }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+                width: 702px;
+                height: 500px;
+                margin-left: 3px;
+                margin-top: 96px;
+            }
+            }
+        }
+        .img {
+            margin-top: 440px;
+            margin-left: -88px;
+            @media(max-width: 600px){
+                width: 161px;
+                position: absolute;
+                right: 0px;
+                top: 99px;
+                height: 100px;
+            }
+            @media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+            position: relative;
+            right: 120px;
+            top: 83px;
+            }
+            @media only screen and (min-device-width: 820px) and (max-device-width: 1180px){
+            right: 81px;
+        }
+    }
+        .svg1 {
+            opacity: 0.1;
+            right: 19px;
+        }
+    }
